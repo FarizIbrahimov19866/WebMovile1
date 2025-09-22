@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Questionnaire">
+    <meta name="author" content="Fariz Ibrahimov">
+    <title>Questionnaire</title>
+    <link rel="icon" href="Logo.webp">
+</head>
+<body>
+<header>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="Education.html">Education</a> |
+        <a href="Schedule.html">Weekly Schedule</a> |
+        <a href="Contact.html">Contact Me</a> |
+    </nav>
+    <hr>
+</header>
+
+<main>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Questionnaire</title>
+</head>
+
+    <section>
+        <h1>Questionnaire</h1>
+        <form action="mailto:ziraf2006@gmail.com" method="post" enctype="text/plain">
+            <label for="nickname">Your Nickname:</label><br>
+            <input type="text" id="nickname" name="Nickname" required><br><br>
+
+            <label for="email">Your Email:</label><br>
+            <input type="email" id="email" name="Email" required><br><br>
+
+            <label for="dat">Date of passing this test:</label><br>
+            <input type="date" id="dat" name="Dat"><br><br>
+            
+            <img src="BB.jpg" alt="Breaking bad" width="150"><br>
+            <label>Have you watched this show this show?</label><br>
+            <input type="radio" id="yes" name="BB" value="Yes">
+            <label for="coding-yes">Yes</label>
+            <input type="radio" id="no" name="BB" value="No">
+            <label for="coding-no">No</label><br><br>
+
+            <label for="satisfaction">How would you rate tris show? (1-10):</label><br>
+            <input type="range" id="satisfaction" name="Satisfaction" min="1" max="10"><br><br>
+
+            <label>Your favorite Breaking Bad characters:</label><br>
+            <input type="checkbox" id="walter" name="FavoriteCharacters" value="Walter White">
+            <label for="walter">Walter White</label><br>
+            <input type="checkbox" id="jesse" name="FavoriteCharacters" value="Jesse Pinkman">
+            <label for="jesse">Jesse Pinkman</label><br>
+            <input type="checkbox" id="skyler" name="FavoriteCharacters" value="Skyler White">
+            <label for="skyler">Skyler White</label><br>
+            <input type="checkbox" id="hank" name="FavoriteCharacters" value="Hank Schrader">
+            <label for="hank">Hank Schrader</label><br>
+            <input type="checkbox" id="gus" name="FavoriteCharacters" value="Gus Fring">
+            <label for="gus">Gus Fring</label><br>
+            <input type="checkbox" id="other" name="FavoriteCharacters" value="Other">
+            <label for="other">Other</label><br><br>
+
+            <label for="favoriteSeason">Which is your favorite season?</label><br>
+            <select id="favoriteSeason" name="FavoriteSeason">
+                <option value="Season 1">Season 1</option>
+                <option value="Season 2">Season 2</option>
+                <option value="Season 3">Season 3</option>
+                <option value="Season 4">Season 4</option>
+                <option value="Season 5">Season 5</option>
+            </select><br><br>
+
+            <label for="Check">Sudden check, What color was the Methamphetamine?</label><br>
+            <input type="color" id="Check" name="MethColor"><br><br>
+            
+            <article>
+                <label for="favEpisode">Link to your favorite episode (see the full list <a href="https://www.imdb.com/title/tt0903747/ratings/" target="_blank">here</a>):</label><br>
+                <input type="url" id="favEpisode" name="FavoriteEpisode"><br><br>
+            </article>
+            <label for="grade">Rate this questionnaire:</label><br>
+            <input type="number" id="grade" name="Grade" min="1" max="10"><br><br>
+
+            <input type="submit" value="Send">
+            <input type="reset" value="Clear">
+        </form>
+    </section>
+</main>
+
+<footer>
+    <hr>
+    <p>&copy; 2025 Fariz Ibrahimov</p>
+</footer>
+</body>
+</html>

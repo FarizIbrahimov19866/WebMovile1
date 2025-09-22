@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Contact page">
+    <meta name="author" content="Fariz Ibrahimov">
+    <title>Contact Me - Fariz Ibrahimov</title>
+    <link rel="icon" href="Logo.webp">
+</head>
+<body>
+<header>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="Education.html">Education</a> |
+        <a href="Schedule.html">Weekly Schedule</a> |
+        <a href="Contact.html">Contact Me</a> |
+    </nav>
+    <hr>
+</header>
+
+<main>
+    <section>
+        <h1>Contact Me</h1>
+        <form action="mailto:ziraf2006@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Your Name:</label><br>
+            <input type="text" id="name" name="Name" required><br><br>
+
+            <label for="email">Your Email:</label><br>
+            <input type="email" id="email" name="Email" required><br><br>
+
+            <label for="subject">Subject:</label><br>
+            <input type="text" id="subject" name="Subject"><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="Message" rows="5" cols="40"></textarea><br><br>
+
+            <label>Contact Method:</label><br>
+            <input type="radio" id="contact-email" name="ContactMethod" value="Email">
+            <label for="contact-email">Email</label><br>
+            <input type="radio" id="contact-phone" name="ContactMethod" value="Phone">
+            <label for="contact-phone">Phone</label><br>
+            <input type="radio" id="contact-phone" name="ContactMethod" value="Pigeons">
+            <label for="contact-phone">Pigeons</label><br><br>
+
+            <label>
+                <input type="checkbox" name="Checkbox" value="Yes"> Just a checkbox
+            </label><br><br>
+
+            <label for="topic">Topic:</label><br>
+            <select id="topic" name="Topic">
+                <option value="Games">Games</option>
+                <option value="Food">Food</option>
+                <option value="Anime">Anime</option>
+                <option value="Other">Other</option>
+            </select><br><br>
+
+            <input type="submit" value="Send"> <br>
+
+            <section>
+                <h4>Want to fill the questionnaire?</h2>
+                <a href="Questionnaire.html">
+                    <button type="button">Yes</button>
+                </a>
+            </section>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <hr>
+    <p>&copy; 2025 Fariz Ibrahimov</p>
+</footer>
+</body>
+</html>
